@@ -137,7 +137,7 @@ function Home() {
                     <img src={group1} alt="" />
                 </div>
 
-                <div>
+                <div className="shaw" >
                 {/* <div className={isMobile ? "show-d" : "show"}> */}
 
                     <div className="case">
