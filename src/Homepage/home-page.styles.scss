@@ -97,7 +97,7 @@ body{
     margin-right: 20px;
     margin-top: 10px;
     border-radius: 20px;
-    height: 30px;
+    // height: 30px;
     text-align: center;
     font-size: 8px;
     font-weight: 600;
@@ -112,14 +112,13 @@ body{
     text-align: center;
     margin-top: 60px;
     font-size: 12px;
-    line-height: 20px;
+    // line-height: 20px;
 }
 
 .box{
-    padding-bottom: 30px;
-    
+    padding-bottom: 30px; 
     margin-left: 20px;
-    line-height: 20px;
+    // line-height: 20px;
     margin-top: 50px;
     display: flex;
 
@@ -157,7 +156,7 @@ body{
 
         p{
             padding-top: 15px;
-            font-size: 12px;
+            // font-size: 12px;
             padding-bottom: 20px;
         }
     }
@@ -192,14 +191,14 @@ body{
 
 .case{
     
-    line-height: 23px;
+    // line-height: 23px;
     
     // padding: 30px;
 
     p{
         padding-top: 12px;
         font-size: 8px;
-        line-height: 15px;
+        // line-height: 15px;
         width: 170px;
     }
 
@@ -312,12 +311,12 @@ body{
     margin-left: 9px;
     width: 22%;
     padding: 20px;
-    line-height: 20px;
+    // line-height: 20px;
     border-radius: 10px;
 
-    p{
-        font-size: 10px;
-    }
+    // p{
+    //     font-size: 10px;
+    // }
 
     span{
         font-size: 10px;
@@ -407,7 +406,7 @@ body{
   
     p{
         font-size: 10px;
-     line-height: 20px;
+    //  line-height: 20px;
 
     }
 }
@@ -945,8 +944,8 @@ body{
     }
 
     .section p {
-        font-size: 9px;
-        line-height: 15px;
+        font-size: 14px;
+        /* line-height: 15px; */
         padding-top: 20px;
     }
 
@@ -967,14 +966,22 @@ body{
         text-align: center;
         margin-top: 60px;
         font-size: 12px;
-        line-height: 20px;
-    }
-    
-    .content p{
-        width: 240px;
+        // line-height: 20px;
         margin-left: auto;
         margin-right: auto;
     }
+
+    .content h3{
+        font-size: 40px;
+    }
+
+    .content p{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: #A5A9B2;
+}
 
     .box {
         padding-bottom: 30px;
@@ -1015,27 +1022,28 @@ body{
         }
 
         .context h4{
-            width: 150px;
-            font-size: 20px;
+            width: 300px;
+            font-size: 35px;
         }
 
         .context p{
             padding-top: 15px;
-            font-size: 12px;
+            font-size: 15px;
             padding-bottom: 20px;
             width: 220px;
             color: #777F8C;
         }
     
         .context img{
-            width: 28%;
+            width: 40%;
             border: none;
             border-top: none;
             border-top-left-radius: 38px;
             border-top-right-radius: 40px;
-            margin-left: -28px;
+            margin-left: -15%;
             margin-top: 70px;
         }
+        
 
         .showcase{
             display: flex;
@@ -1043,31 +1051,108 @@ body{
         
         .showcase img{
             width: 80%;
+            margin-left: 40px;
         }
         
         .shaw{
             display: flex;
             flex-direction: column;
             width: 500px;
-            padding-top: 28%;
-            margin-left: -60px;
+            padding-top: 25%;
+            margin-left: -20%;
         }
         
-        .case{
-            line-height: 23px;          
-        }
+        // .case{
+        //     line-height: 23px;          
+        // }
 
         .case h4{
-            font-size: 20px;
+            font-size: 30px;
         }
 
         .case p{
             padding-top: 12px;
-            font-size: 10px;
-            line-height: 15px;
-            width: 230px;
+            font-size: 15px;
+            /* line-height: 15px; */
+            width: 310px;
             color: #777F8C;
         }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            margin-top: 15px;
+            background: #7000F6;
+            margin-bottom: 10px;
+            color: #fff;
+            width: 150px;
+            border-radius: 30px;
+            /* padding-left: 15px; */
+            align-content: center;
+            text-align: center;
+            justify-content: center;
+            /* padding-bottom: 7px; */
+            padding: 10px;
+        }
+    
+        .buttons i {
+            padding-left: 27px;
+            /* margin-left: 5px; */
+            color: #fff;
+            font-size: 30px;
+            margin-top: -5px;
+        }
+    
+        .buttons span {
+            color: #f4f4f4;
+            padding-left: 10px;
+            font-size: 10px;
+        }
+    
+        .buttons p {
+            font-size: 17px;
+            font-weight: 600;
+            padding-left: 25px;
+        }
+        .button {
+            display: flex;
+            flex-direction: column;
+            margin-top: 15px;
+            background: #F1F5FB;
+            margin-bottom: 10px;
+            color: #7000F6;
+            width: 150px;
+            border-radius: 30px;
+            /* padding-left: 15px; */
+            align-content: center;
+            text-align: center;
+            justify-content: center;
+            /* padding-bottom: 7px; */
+            padding: 10px;
+        }
+    
+        .button i {
+            padding-left: 27px;
+            /* margin-left: 5px; */
+            color: #7000F6;
+            font-size: 25px;
+            margin-top: -5px;
+        }
+    
+        .button span {
+            color: #777F8C;
+            /* padding-left: 0px; */
+            font-size: 10px;
+            margin-left: -45px;
+        }
+    
+        .button p {
+            font-size: 17px;
+            font-weight: 600;
+            padding-left: 25px;
+            color: #000;
+        }
+    
 
         .second-box{
             overflow: scroll;
@@ -1082,8 +1167,18 @@ body{
         }
     
         .say .fad{
-            font-size: 40px;
+            font-size: 60px;
             margin-bottom: 20px;
+        }
+
+        .say h2 {
+            font-size: 35px;
+            margin-left: 10px;
+        }
+
+        .second-box .option span {
+            font-size: 16px;
+            font-weight: 600;
         }
 
         // .bg{
@@ -1098,46 +1193,56 @@ body{
         }
     
         .bg-text{
-            // line-height: 20px;
             width: 50%;
-            /* margin-left: 70px; */
+            margin-left: auto;
+            margin-right: auto;
             padding: 20px;
             position: relative;
             top: -15rem;
         }
     
         .bg-text h3{
-            font-size: 25px;
-            width: 300px;
+            font-size: 30px;
+            width: 350px;
+            margin-left: auto;
         }
     
         .bg-text p{
-            // line-height: 10px;
-            font-size: 10px;
-            width: 300px;
+            font-size: 15px;
+            width: 400px;
         }
 
-        .btn-purple{
-            width: 160px;
-            background: #7000F6 ;
-            color: #fff;
+        .btn-purple {
+            width: 200px;
+            background: #7000F6;
             border: none;
-            // margin-top: 10px;
+            margin-top: 10px;
             border-radius: 3px;
-            margin-left: -5rem;
-            // height: 35px;
+            // height: 35px; 
         }
-
+    
+    
         .btn-purple p{
-            font-size: 12px;
-            text-align: center;
-            padding-bottom: 10px;
-            margin-left: -4rem;
+            color: #fff;
+            margin-left: -50%;
         }
 
         .footer {
             margin-top: -28%;
             background-color: #E7ECF0;
+        }
+
+        .card-4 {
+            padding: 30px;
+            padding-top: 70px;
+            width: 30%;
+            margin-bottom: 8px;
+            /* margin-right: 10px; */
+            margin-left: -10%;
+        }
+
+        .card-4 h4{
+            margin-left: 10px;
         }
 
         .end span {
@@ -1153,6 +1258,7 @@ body{
     .header {
         background: #7000F6;
         height: 100%;
+        width: 100%;
     }
 
     .header .navbar {
@@ -1160,7 +1266,7 @@ body{
         justify-content: space-between;
         color: #fff;
         margin-left: 10px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     
     .header .navbar .nav-links {
@@ -1168,7 +1274,7 @@ body{
         list-style: none;
         cursor: pointer;
         padding-left: 35%;
-        margin-top: 15px;
+        margin-top: 10px;
         font-size: 20px;
     }
 
@@ -1192,61 +1298,74 @@ body{
 
     .section h3 {
         font-weight: 700;
-        font-size: 28px;
+        font-size: 50px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .section p {
-        font-size: 10px;
-        line-height: 15px;
+        font-size: 20px;
         padding-top: 20px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #ccc;
     }
 
     .btn-secwhite {
-        width: 100px;
+        width: 170px;
         background: #fff;
         color: #7000F6;
         border: none;
         margin-right: 20px;
-        margin-top: 10px;
+        margin-top: 15px;
         border-radius: 20px;
-        height: 30px;
+    /* height: 30px; */
         text-align: center;
-        font-size: 8px;
+        font-size: 18px;
         font-weight: 600;
+        padding: 10px;
     }
 
     .section .its{
-        margin-left: -20px;
+        margin-left: auto;
     }
 
     .header img {
-        // margin-left: 28%;
+        margin-left: 37%;
         margin-top: 40px;
         border: none;
         border-top-left-radius: 27px;
         border-top-right-radius: 27px;
         margin-bottom: -4px;
     }
-    
+
     .content {
-            text-align: center;
-            margin-top: 60px;
-            font-size: 12px;
-            line-height: 20px;
-            margin-left: auto;
-            margin-right: auto;
-    }
-    
-    .content p{
-        width: 240px;
+        text-align: center;
+        margin-top: 60px;
+        font-size: 12px;
+        // line-height: 20px;
         margin-left: auto;
         margin-right: auto;
     }
 
+    .content h3{
+        font-size: 40px;
+    }
+
+    .content p{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: #A5A9B2;
+}
+
     .box {
         padding-bottom: 30px;
         margin-left: 20px;
-        line-height: 20px;
+        // line-height: 20px;
         margin-top: 50px;
         display: flex;
         cursor: pointer;
@@ -1256,17 +1375,18 @@ body{
         border-radius: 5px;
         margin-bottom: 20px;
         background-color: #f4f4f4;
-        padding: 15px;
+        padding: 30px;
         // width: 17%;
         margin-left: 10px;
         }
 
     .box h5 {
-            font-size: 12px;
+            font-size: 20px;
     }
 
     .box p {
-        font-size: 10px;
+        font-size: 15px;
+        color: #A5A9B2;
     }
 
     .box i{
@@ -1292,18 +1412,19 @@ body{
     .context .text{   
         padding: 100px;
         margin-left: auto;
+        margin-top: 25px;
     }
 
     .context h4{
-        width: 170px;
-        font-size: 20px;
+        width: 300px;
+        font-size: 40px;
     }
 
     .context p{
         padding-top: 15px;
-        font-size: 12px;
-        padding-bottom: 20px;
-        width: 220px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    width: 400px;
         color: #777F8C;
     }
 
@@ -1324,114 +1445,126 @@ body{
     
     .showcase img{
         width: 70%;
+        margin-top: 120px;
+        margin-left: 100px;
+
     }
     
     .shaw{
         display: flex;
         flex-direction: column;
         width: 500px;
-        padding-top: 27%;
-        margin-left: -20%;
+        padding-top: 23%;
+        margin-left: -25%;
         
     }
     
-    .case{
-        line-height: 23px;          
-    }
+    // .case{
+    //     line-height: 23px;          
+    // }
 
     .case h4{
-        font-size: 20px;
+        font-size: 40px;
     }
 
     .case p{
         padding-top: 12px;
-        font-size: 10px;
-        line-height: 15px;
-        width: 230px;
+        font-size: 20px;
+        /* line-height: 15px; */
+        width: 450px;
         color: #9faabd;
     }
 
     .buttons {
-        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
         background: #7000F6;
         margin-bottom: 10px;
         color: #fff;
-        width: 90px;
-        border-radius: 20px;
-        padding-left: 15px;
+        width: 150px;
+        border-radius: 30px;
+        /* padding-left: 15px; */
         align-content: center;
-        padding-bottom: 7px;
+        text-align: center;
+        justify-content: center;
+        /* padding-bottom: 7px; */
+        padding: 10px;
     }
 
     .buttons i {
-        margin-top: 3px;
-        padding-left: 20px;
-        margin-left: -16px;
-        padding-top: 6px;
+        padding-left: 27px;
+        /* margin-left: 5px; */
         color: #fff;
+        font-size: 30px;
+        margin-top: -5px;
     }
 
     .buttons span {
         color: #f4f4f4;
-        padding-left: 25px;
-        font-size: 8px;
+        padding-left: 10px;
+        font-size: 10px;
     }
 
     .buttons p {
-        font-size: 10px;
+        font-size: 17px;
         font-weight: 600;
         padding-left: 25px;
     }
-
     .button {
-        background: #f4f4f4;
-        margin-bottom: 20px;
-        width: 90px;
-        border-radius: 20px;
-        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        background: #F1F5FB;
+        margin-bottom: 10px;
+        color: #7000F6;
+        width: 150px;
+        border-radius: 30px;
+        /* padding-left: 15px; */
         align-content: center;
-        padding-bottom: 7px;
+        text-align: center;
+        justify-content: center;
+        /* padding-bottom: 7px; */
+        padding: 10px;
     }
 
     .button i {
-        margin-top: 3px;
-        padding-left: 20px;
-        margin-left: -16px;
-        padding-top: 6px;
+        padding-left: 27px;
+        /* margin-left: 5px; */
         color: #7000F6;
+        font-size: 25px;
+        margin-top: -5px;
     }
 
     .button span {
-        padding-left: 25px;
-        font-size: 8px;
+        color: #777F8C;
+        /* padding-left: 0px; */
+        font-size: 10px;
+        margin-left: -45px;
     }
 
     .button p {
-        font-size: 10px;
+        font-size: 17px;
         font-weight: 600;
         padding-left: 25px;
-    }
-
-
-    .say{
-        margin-left: 50px;
-        margin-top: 50px;
-    
-        h2{
-            margin-left: 10px;
-        }
-    
-        i{
-            padding-left: 10px;
-            color: #7000F6;
-            font-size: 40px;
-            margin-bottom: 20px;
-            
-        }
+        color: #000;
     }
 
     .second-box{
         overflow: scroll;
+    }
+
+    .second-box .option p {
+        font-size: 20px;
+    }
+
+    .say .option{
+        min-width: 40%;
+    }
+
+    .say .fad{
+        font-size: 40px;
+        margin-bottom: 20px;
     }
 
     .second-box .option {
@@ -1439,10 +1572,16 @@ body{
         border: 1px #ccc solid;
         margin-bottom: 20px;
         margin-left: 9px;
-        /* width: 22%; */
+        width: 25%;
         padding: 20px;
-        line-height: 20px;
+        // line-height: 20px;
         border-radius: 10px;
+    }
+
+    .second-box .option span {
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 10px;
     }
 
     .bg img {
@@ -1455,34 +1594,40 @@ body{
         margin-right: auto;
         padding: 20px;
         position: relative;
-        top: -20rem;
+        top: -25rem;
     }
 
     .bg-text h3 {
-        font-size: 45px;
+        font-size: 56px;
     }
 
     .bg-text p {
         padding-top: 10px;
         font-size: 18px;
+        color: #ccc;
     }
 
     .btn-purple {
         width: 200px;
         background: #7000F6;
-        color: #fff;
         border: none;
         margin-top: 10px;
         border-radius: 3px;
-        height: 35px; 
+        // height: 35px; 
     }
 
-    .footer{
-        margin-top: -28%;
+
+    .btn-purple p{
+        color: #fff;
+    }
+
+    .footer {
+    margin-top: -35%;
     }
 
     .third-box {
         display: flex;
+        padding-top: 25px;
     }
 
     .card {
@@ -1495,11 +1640,26 @@ body{
     .card-1 h2 {
         color: #7000F6;
         font-weight: 800;
+        margin-left: 10px;
     }
 
+    // .card-1 p{
+    //     width: 150px;
+    // }
+
+
+
     .card p {
-        font-size: 10px;
-        line-height: 20px;
+        font-size: 17px;
+        // line-height: 20px;
+    }
+
+    .card h4{
+        margin-left: 10px;
+    }
+
+    .cardi p{
+        padding: 10px;
     }
 
     .end {
@@ -1510,12 +1670,12 @@ body{
         padding-bottom: 50px;
     
         p{
-            font-size: 10px;
+            font-size: 15px;
             margin-top: 10px;
         }
     
         span{
-            font-size: 10px;
+            font-size: 15px;
             padding-left: 300px;
             margin-top: 10px;
         }
@@ -1523,6 +1683,7 @@ body{
     
     .end-icon{
         display: flex;
+        margin-right: 10%;
     }
     
     .end-icons{
@@ -1592,25 +1753,27 @@ body{
     }
 
     .section p {
-        font-size: 18px;
+        font-size: 20px;
         padding-top: 20px;
         width: 500px;
         margin-left: auto;
         margin-right: auto;
+        color: #ccc;
     }
 
     .btn-secwhite {
-        width: 150px;
+        width: 170px;
         background: #fff;
         color: #7000F6;
         border: none;
         margin-right: 20px;
-        margin-top: 10px;
+        margin-top: 15px;
         border-radius: 20px;
-        /* height: 30px; */
+    /* height: 30px; */
         text-align: center;
-        font-size: 13px;
+        font-size: 18px;
         font-weight: 600;
+        padding: 10px;
     }
 
     .section .its{
@@ -1630,21 +1793,27 @@ body{
         text-align: center;
         margin-top: 60px;
         font-size: 12px;
-        line-height: 20px;
+        // line-height: 20px;
         margin-left: auto;
         margin-right: auto;
     }
 
+    .content h3{
+        font-size: 40px;
+    }
+
     .content p{
-    width: 240px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
-    }
+    font-size: 20px;
+    color: #A5A9B2;
+}
 
     .box {
         padding-bottom: 30px;
         margin-left: 20px;
-        line-height: 20px;
+        // line-height: 20px;
         margin-top: 50px;
         display: flex;
         cursor: pointer;
@@ -1660,11 +1829,12 @@ body{
         }
 
     .box h5 {
-            font-size: 12px;
+            font-size: 20px;
     }
 
     .box p {
-        font-size: 10px;
+        font-size: 15px;
+        color: #A5A9B2;
     }
 
     .box i{
@@ -1694,15 +1864,15 @@ body{
     }
 
     .context h4{
-        width: 170px;
-        font-size: 20px;
+        width: 300px;
+        font-size: 40px;
     }
 
     .context p{
         padding-top: 15px;
-        font-size: 12px;
-        padding-bottom: 20px;
-        width: 220px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    width: 400px;
         color: #777F8C;
     }
 
@@ -1723,90 +1893,142 @@ body{
     
     .showcase img{
         width: 70%;
+        margin-top: 120px;
+        margin-left: 200px;
+
     }
     
     .shaw{
         display: flex;
         flex-direction: column;
         width: 500px;
-        padding-top: 27%;
-        margin-left: -20%;
+        padding-top: 20%;
+        margin-left: -15%;
         
     }
     
-    .case{
-        line-height: 23px;          
-    }
+    // .case{
+    //     line-height: 23px;          
+    // }
 
     .case h4{
-        font-size: 20px;
+        font-size: 40px;
     }
 
     .case p{
         padding-top: 12px;
-        font-size: 10px;
-        line-height: 15px;
-        width: 230px;
+        font-size: 20px;
+        /* line-height: 15px; */
+        width: 450px;
         color: #9faabd;
     }
 
     .buttons {
-        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
         background: #7000F6;
         margin-bottom: 10px;
         color: #fff;
-        width: 100px;
-        border-radius: 25px;
-        padding-left: 15px;
+        width: 150px;
+        border-radius: 30px;
+        /* padding-left: 15px; */
         align-content: center;
-        padding-bottom: 7px;
+        text-align: center;
+        justify-content: center;
+        /* padding-bottom: 7px; */
+        padding: 10px;
     }
 
     .buttons i {
-    padding-left: 20px;
-    margin-left: -20px;
-    color: #fff;
-    font-size: 25px;
+        padding-left: 27px;
+        /* margin-left: 5px; */
+        color: #fff;
+        font-size: 30px;
+        margin-top: -5px;
     }
 
     .buttons span {
         color: #f4f4f4;
-        padding-left: 25px;
-        font-size: 8px;
+        padding-left: 10px;
+        font-size: 10px;
     }
 
     .buttons p {
-        font-size: 10px;
+        font-size: 17px;
         font-weight: 600;
         padding-left: 25px;
     }
-
     .button {
-        background: #f4f4f4;
-        margin-bottom: 20px;
-        width: 100px;
-        border-radius: 25px;
-        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        background: #F1F5FB;
+        margin-bottom: 10px;
+        color: #7000F6;
+        width: 150px;
+        border-radius: 30px;
+        /* padding-left: 15px; */
         align-content: center;
-        padding-bottom: 7px;
+        text-align: center;
+        justify-content: center;
+        /* padding-bottom: 7px; */
+        padding: 10px;
     }
 
     .button i {
-        padding-left: 20px;
-        margin-left: -20px;
-        font-size: 20px;
+        padding-left: 27px;
+        /* margin-left: 5px; */
         color: #7000F6;
+        font-size: 25px;
+        margin-top: -5px;
     }
 
     .button span {
-        padding-left: 25px;
-        font-size: 8px;
+        color: #777F8C;
+        /* padding-left: 0px; */
+        font-size: 10px;
+        margin-left: -45px;
     }
 
     .button p {
-        font-size: 10px;
+        font-size: 17px;
         font-weight: 600;
         padding-left: 25px;
+        color: #000;
+    }
+
+    .say i {
+        padding-left: 10px;
+        color: #7000F6;
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    .say h2 {
+        margin-left: 10px;
+        font-size: 40px;
+    }
+
+    .second-box .option p {
+        font-size: 17px;
+    }
+
+    .second-box .option {
+        box-sizing: border-box;
+        border: 1px #ccc solid;
+        margin-bottom: 20px;
+        margin-left: 9px;
+        width: 25%;
+        padding: 20px;
+        line-height: 20px;
+        border-radius: 10px;
+    }
+
+    .second-box .option span {
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 10px;
     }
 
     .bg img {
@@ -1847,7 +2069,7 @@ body{
     }
 
     .footer{
-        margin-top: -25%;
+        margin-top: -21%;
     }
 
     .third-box {
@@ -1865,15 +2087,26 @@ body{
     .card-1 h2 {
         color: #7000F6;
         font-weight: 800;
+        margin-left: 10px;
     }
 
-    .card-1 p{
-        width: 150px;
-    }
+    // .card-1 p{
+    //     width: 150px;
+    // }
+
+
 
     .card p {
-        font-size: 10px;
-        line-height: 20px;
+        font-size: 17px;
+        // line-height: 20px;
+    }
+
+    .card h4{
+        margin-left: 10px;
+    }
+
+    .cardi p{
+        padding: 10px;
     }
 
     .end {
@@ -1884,12 +2117,12 @@ body{
         padding-bottom: 50px;
     
         p{
-            font-size: 10px;
+            font-size: 15px;
             margin-top: 10px;
         }
     
         span{
-            font-size: 10px;
+            font-size: 15px;
             padding-left: 300px;
             margin-top: 10px;
         }
@@ -1911,7 +2144,5 @@ body{
         border-radius: 5px;
     
     }
-
-
 
 }
