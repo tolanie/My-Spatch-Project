@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 
-import ActionButtion from "../components/Actionbutton";
 
 import Storebutton from "../components/storebutton";
 
 import AppButtion from "../components/Appbutton";
 
-import request from '../img/request.jpg'
 
 import devicep from '../img/devicep.jpg';
 
@@ -23,69 +21,28 @@ import girl3 from '../img/girl3.png';
 import bg from '../img/BG.png';
 
 import './home-page.styles.scss';
+import Header from "../components/Header";
+import request from '../img/request.jpg'
+import Bg from "../components/bg";
+import Footer from "../components/Footer";
+
 
 function Home() {
-    const [isMobile, setIsMobile] = useState(false);
+   
     return (
         <div className="component">
-            <div className="header">
-                <div className='navbar'>
-                    <h1 className={isMobile ? 'logo' : 'logo-main'}>spatch </h1>
-                    <ul
-                        className={isMobile ? "nav-links-mobile" : "nav-links"}
-                        onClick={() => setIsMobile(false)}
-                    >
-                        <li><a href="#about"></a>About</li>
-                        <li><a href="#contact"></a>Contact</li>
-                        <li className={isMobile ? "reg" : "reg-li"}><a href="#register"></a>Register</li>
-                        <li className="request"><a href="#request"></a>Request</li>
-                    </ul>
 
-                    <div className={isMobile ? "connect" : "connect-us"}>
-                        <span>Connect with us on social</span>
-
-                        <div className="end-icon">
-
-                            <div className="end-icons">
-                                <i class="fab fa-instagram icon"></i>
-                            </div>
-
-                            <div className="end-icons">
-                                <i class="fab fa-twitter icon"></i>
-                            </div>
-
-                            <div className="end-icons">
-                                <i class="fab fa-invision icon"></i>
-                            </div>
-
-                            <div className="end-icons">
-                                <i class="fab fa-facebook icon"></i>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <button className="mobile-menu-icon" onClick={() => setIsMobile(!isMobile)}>
-                        {isMobile ? (
-                            <i class="fal fa-minus"></i>
-                        ) : (
-                            <i class="fas fa-plus"></i>
-                        )}
-                    </button>
-
-                    <ActionButtion className={"btn-feswhite"} value={"Register"} />
-                </div>
-
-                <div className="section">
-                    <h3>Providing reliable and smart logic solutions.</h3>
-                    <p>Just as you take pride in leading your market we
-                        take pride in giving you unparralled dilivery services</p>
-                    <AppButtion className={"btn-secwhite"} value={"Register with us"} />
-                    <p className="its"> Its all free no charges</p>
-                </div>
-                <img src={request} alt="" />
+            <Header/>
+            < div className="show-max">
+            <div className="section">
+                <h3>Providing reliable and smart logic solutions.</h3>
+                <p>Just as you take pride in leading your market we
+                    take pride in giving you unparralled dilivery services</p>
+                <AppButtion className={"btn-secwhite"} value={"Register with us"} />
+                <p className="its"> Its all free no charges</p>
             </div>
-
+            <img src={request} alt="" />
+            </div>
             <div className="content"  >
                 <h3>Trusted to deliver</h3>
                 <p>Its simple. Concentrate on what you do best. We take care of the rest. </p>
@@ -194,79 +151,9 @@ function Home() {
 
             </div>
 
-            <div className="bg">
-                <img src={bg} alt="" />
+           <Bg/>
 
-                <div className="bg-text" >
-                    <h3>Manage your deliveries with spatch easily.</h3>
-                    <p>Time is the most precious thing you have when running
-                        your business. You can off the time to ponder on logistics.
-                    </p>
-                    <button className="btn-purple">
-                        <p>Contact for support</p>
-                    </button>
-                </div>
-            </div>
-
-            <div className="footer">
-                <div className="third-box">
-
-                    <div className="card cardi card-1">
-                        <h2>spatch</h2>
-                        <p>We delivered over 20,000 jobs successfully since we started this journey.</p>
-                    </div>
-
-                    <div className="card cardi">
-                        <h4>Company</h4>
-                        <p>Company</p>
-                        <p>Blog</p>
-                        <p>Careers</p>
-                        <p>Contact</p>
-                    </div>
-
-                    <div className="card cardi ">
-                        <h4>Service</h4>
-                        <p>Same day</p>
-                        <p>International</p>
-                        <p>Express</p>
-                        <p>Buck Service</p>
-                    </div>
-
-                    <div className="card card-4 ">
-                        <h4>Download our app</h4>
-                        <Storebutton className={"buttons"} classStyle={"fab fa-apple"} text={"Available on"} title={"App Store"} />
-                        <Storebutton className={"button"} classStyle={"fab fa-google-play"} text={"Get it on"} title={"Google Play"} />
-                    </div>
-                </div>
-
-                <div className="end">
-                    <p>&copy; spatch 2021, All Right Reserved</p>
-                    <span>Connect with us on social</span>
-
-                    <div className="end-icon">
-
-                        <div className="end-icons">
-                            <i class="fab fa-instagram icon"></i>
-                        </div>
-
-                        <div className="end-icons">
-                            <i class="fab fa-twitter icon"></i>
-                        </div>
-
-                        <div className="end-icons">
-                            <i class="fab fa-invision icon"></i>
-                        </div>
-
-                        <div className="end-icons">
-                            <i class="fab fa-facebook icon"></i>
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-            </div>
+        <Footer/>
 
 
 
